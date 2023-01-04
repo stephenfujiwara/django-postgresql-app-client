@@ -47,9 +47,9 @@ export default function UserHome() {
         },
       });
       const { id } = data.data;
-      setIsSubmitting(false);
       getImage(id);
       getImages();
+      setIsSubmitting(false);
       setInputImage(null);
     } catch (error) {
       setIsSubmitting(false);
@@ -102,6 +102,9 @@ export default function UserHome() {
         <h3 className="mx-4 font-bold">
           Your previous uploads are saved to the right, available for download!
           👉
+        </h3>
+        <h3 className="m-4 font-bold">
+          Note: It may take a little while lol 🤣
         </h3>
         <div className="w-full h-full flex flex-col justify-center items-center">
           <div className="w-2/3 h-1/2 border border-white p-2 rounded-md bg-white">

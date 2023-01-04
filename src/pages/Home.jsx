@@ -51,6 +51,9 @@ function Home() {
 
   return (
     <div className="flex-1 flex flex-col gap-4 justify-center items-center font-inter bg-slate-900">
+      <h3 className="absolute left-4 top-20 font-bold">
+        Note: It may take a little while lol 🤣
+      </h3>
       <div className="flex justify-center items-center w-full h-1/3">
         <div className="w-1/3 h-full border border-white bg-white p-2 rounded-md">
           <Dropzone
