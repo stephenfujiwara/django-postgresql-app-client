@@ -4,7 +4,7 @@ import { AuthContext } from "../context/AuthContext";
 import Dropzone from "react-dropzone";
 import { BiTrash } from "react-icons/bi";
 
-const url = "http://localhost:8000/api/";
+const url = "https://django-postgresql-app-api.onrender.com/api/";
 
 export default function UserHome() {
   const [images, setImages] = useState([]);

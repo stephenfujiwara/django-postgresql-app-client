@@ -2,7 +2,7 @@ import Dropzone from "react-dropzone";
 import { useState } from "react";
 import { BiTrash } from "react-icons/bi";
 
-const url = "http://localhost:8000/api/";
+const url = "https://django-postgresql-app-api.onrender.com/api/";
 
 function Home() {
   const [image, setImage] = useState(null);

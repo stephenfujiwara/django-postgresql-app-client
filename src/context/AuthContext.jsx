@@ -1,7 +1,7 @@
 import { createContext, useState, useEffect } from "react";
 import jwt_decode from "jwt-decode";
 
-const url = "http://localhost:8000/api/";
+const url = "https://django-postgresql-app-api.onrender.com/api/";
 
 export const AuthContext = createContext();
 

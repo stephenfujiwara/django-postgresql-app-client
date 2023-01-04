@@ -3,7 +3,7 @@ import { registerSchema } from "../schemas";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const url = "http://localhost:8000/api/";
+const url = "https://django-postgresql-app-api.onrender.com/api/";
 
 export default function Register() {
   const navigate = useNavigate();
