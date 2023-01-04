@@ -81,7 +81,7 @@ function Home() {
         </div>
         {image && (
           <BiTrash
-            className="text-xl cursor-pointer absolute right-[27rem]"
+            className="text-xl cursor-pointer absolute right-[27rem] text-slate-50 hover:scale-105"
             onClick={() => setImage(null)}
           />
         )}
